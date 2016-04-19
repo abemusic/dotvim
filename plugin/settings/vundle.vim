@@ -12,6 +12,6 @@ if VundleInstalled == 1
   echo ""
   echo "edit vimrc, select vundles or individual plugins to install"
   echo "and run\n\n"
-  echo ":BundleInstall\n\n"
+  echo ":PluginInstall\n\n"
 endif
 

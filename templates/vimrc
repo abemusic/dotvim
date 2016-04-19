@@ -21,7 +21,7 @@ if has("user_commands")
   " Load 'vundles'
   source ~/.vim/vundles.vim
   " Add extra bundles here...
-  " Bundle 'reponame'
+  " Plugin 'reponame'
 endif
 
 " Override colorscheme from base16

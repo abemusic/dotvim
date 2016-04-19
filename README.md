@@ -18,12 +18,12 @@ Edit `vimrc`
 
 Configure any additional plugins in your copy of `vimrc`
 
-    Bundle 'reponame'
+    Plugin 'reponame'
 
 And enable *vundles* to install, see plugin/settings/README.md
 
-    :BundleInstall (in vim will install plugins)
-    :BundleClean (in vim will remove unused plugins)
+    :PluginInstall (in vim will install plugins)
+    :PluginClean (in vim will remove unused plugins)
 
 Neocomplcache is enabled by default, in the template vimrc
 
