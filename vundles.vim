@@ -27,7 +27,8 @@ if count(g:vundles, 'general')
   Plugin 'mbbill/undotree'
   Plugin 'mhinz/vim-signify'
   Plugin 'Raimondi/delimitMate'
-  Plugin 'bling/vim-airline'
+  Plugin 'vim-airline/vim-airline'
+  Plugin 'vim-airline/vim-airline-themes'
   Plugin 'rodjek/vim-puppet'
 endif
 
