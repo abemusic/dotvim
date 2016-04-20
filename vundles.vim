@@ -8,7 +8,7 @@
 "
 
 " Vundle itself
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 " Required for settings
 Plugin 'chriskempson/base16-vim'
 
