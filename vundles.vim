@@ -29,7 +29,6 @@ if count(g:vundles, 'general')
   Plugin 'Raimondi/delimitMate'
   Plugin 'vim-airline/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
-  Plugin 'rodjek/vim-puppet'
 endif
 
 if count(g:vundles, 'git')
@@ -45,6 +44,7 @@ if count(g:vundles, 'hg')
 endif
 " General Programming
 if count(g:vundles, 'programming')
+  Plugin 'scrooloose/nerdcommenter'
   Plugin 'godlygeek/tabular'
   if executable('ack')
     Plugin 'mileszs/ack.vim'
@@ -58,12 +58,14 @@ endif
 endif
 
 if count(g:vundles, 'completion')
-    Plugin 'Shougo/neocomplcache'
-    Plugin 'Shougo/neosnippet'
-    Plugin 'Shougo/neosnippet-snippets'
-    Plugin 'scrooloose/snipmate-snippets'
-    Plugin 'honza/vim-snippets'
-    Plugin 'Indent-Guides'
+  Plugin 'Shougo/neocomplete'
+  Plugin 'Shougo/neocomplcache'
+  Plugin 'Shougo/neosnippet'
+  Plugin 'Shougo/neosnippet-snippets'
+  Plugin 'honza/vim-snippets'
+  Plugin 'scrooloose/snipmate-snippets'
+  Plugin 'davidhalter/jedi-vim'
+  Plugin 'Indent-Guides'
 endif
 
 " PHP
@@ -74,6 +76,7 @@ endif
 " Python
 if count(g:vundles, 'python')
   Plugin 'hynek/vim-python-pep8-indent'
+  Plugin 'klen/python-mode'
   let g:syntastic_python_flake8_args='--ignore=E501'
 endif
 
@@ -96,13 +99,20 @@ if count(g:vundles, 'ruby')
   Plugin 'tpope/vim-rails'
 endif
 
+" Golang
+if count(g:vundles, 'golang')
+  Plugin 'fatih/vim-go'
+  Plugin 'dgryski/vim-godef'
+endif
+
 " Misc
 if count(g:vundles, 'misc')
-  Plugin 'tpope/vim-markdown'
+  Plugin 'plasticboy/vim-markdown'
   Plugin 'spf13/vim-preview'
   Plugin 'tpope/vim-cucumber'
   Plugin 'markcornick/vim-vagrant'
   Plugin 'Puppet-Syntax-Highlighting'
+  Plugin 'rodjek/vim-puppet'
   Plugin 'ekalinin/Dockerfile.vim'
   if v:version > 701
     Plugin 'zhaocai/GoldenView.Vim'

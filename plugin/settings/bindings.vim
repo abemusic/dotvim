@@ -91,3 +91,12 @@ inoremap <Esc>B <down>
 inoremap <Esc>C <right>
 inoremap <Esc>D <left>
 
+" tab navigation
+noremap <silent>[r :bp<CR>
+noremap <silent>]r :bn<CR>
+noremap <silent>[R <C-O>:bfirst<CR>
+noremap <silent>]R <C-O>:blast<CR>
+
+" cursor history navigation
+nnoremap <silent>[i <C-O>
+nnoremap <silent>]i <C-I>

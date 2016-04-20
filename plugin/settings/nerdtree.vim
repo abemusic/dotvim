@@ -8,9 +8,8 @@
 "
 
 " nerdtree
-" Ctrl-F4 to Display the file browser tree
-nmap <F4> :NERDTreeTabsToggle<CR>
-" ,p to show current file in the tree
+" Ctrl-F4 to Display the file browser tree2nmap <F4> :NERDTreeTabsToggle<CR>
+nmap <F2> :NERDTreeTabsToggle<CR>
 nmap <leader>p :NERDTreeFind<CR>
 
 autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()

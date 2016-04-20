@@ -12,3 +12,5 @@ if has("syntax")
   filetype plugin indent on
 endif
 
+" highlight trailing whitespace
+match ErrorMsg '\s\+$'
