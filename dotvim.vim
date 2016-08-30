@@ -52,12 +52,6 @@ set shiftwidth=4        " number of spaces for indent
 set expandtab           " expand tabs into spaces
 set display+=lastline
 
-" mouse settings
-if has("mouse")
-  set mouse=a
-endif
-set mousehide           " Hide mouse pointer on insert mode."
-
 " search settings
 set incsearch           " Incremental search
 set hlsearch            " Highlight search match
